@@ -62,6 +62,7 @@ Tugas 3: Visualisasi Penjumlahan Sinyal Harmonisa
 
 Berdasarkan analisis Deret Fourier, penjumlahan sinyal sinus dengan frekuensi harmonisa ganjil ($n = 1, 3, 5, \dots$) yang amplitudonya bernilai $1/n$ akan membentuk gelombang kotak (Square Wave).
 Di bawah ini adalah kode Python (menggunakan matplotlib dan numpy) untuk memvisualisasikan bagaimana gelombang sinus murni bertransformasi menjadi gelombang kotak seiring bertambahnya harmonisa ganjil.
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -161,6 +162,7 @@ Administrasi (Kebutuhan: 14 Host)Rumus Block Size: $2^4 = 16$ host (dikurangi 2 
 End-point (Kebutuhan: 2 Host)Rumus Block Size: $2^2 = 4$ host (dikurangi 2 = 2 Host Valid). Pas untuk 2. (Biasanya digunakan untuk point-to-point router).Prefix & Netmask: /30 (255.255.255.252)
 
 Nama Jaringan,Kebutuhan,Ukuran Blok,Prefix,Network IP,Range IP Valid (Usable),Broadcast IP
+
 LabA,90 Host,128,/25,10.252.108.0,10.252.108.1 - 10.252.108.126,10.252.108.127
 LabB,60 Host,64,/26,10.252.108.128,10.252.108.129 - 10.252.108.190,10.252.108.191
 Administrasi,14 Host,16,/28,10.252.108.192,10.252.108.193 - 10.252.108.206,10.252.108.207
