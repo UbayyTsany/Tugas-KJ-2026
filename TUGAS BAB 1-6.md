@@ -79,7 +79,7 @@ for n in harmonisa:
     # Rumus harmonisa: (1/n) * sin(n * t)
     sinyal_gabungan += (1 / n) * np.sin(n * t)
     
-    # Visualisasikan setiap tahap yang signifikan
+#Visualisasikan setiap tahap yang signifikan
     if n in [1, 3, 5, 50]:
         label_text = f'Hingga Harmonisa {n}'
         if n == 50:
